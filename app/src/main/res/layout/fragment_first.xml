@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="?android:attr/colorActivatedHighlight"
+            android:background="?android:attr/colorPressedHighlight"
             android:fontFamily="monospace"
             android:paddingLeft="10dp"
             android:paddingTop="5dp"
@@ -54,7 +54,7 @@
             android:text="@string/hello"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="?attr/colorPrimary"
+            android:textColor="?attr/colorOnTertiaryFixed"
             android:textSize="14sp"
             android:textStyle="bold"
             android:typeface="normal"
@@ -73,10 +73,10 @@
             android:text="@string/count_button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button_first"
-            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintHorizontal_bias="0.47"
             app:layout_constraintStart_toEndOf="@+id/toast_button"
             app:layout_constraintTop_toBottomOf="@+id/textview_first"
-            app:layout_constraintVertical_bias="0.09" />
+            app:layout_constraintVertical_bias="0.11" />
 
         <TextView
             android:id="@+id/hi_toast"
@@ -115,10 +115,15 @@
 
         <Button
             android:id="@+id/Hi.button"
-            android:layout_height="wrap_content"
+            android:layout_width="71dp"
+            android:layout_height="40dp"
             android:text="Hi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toast_button"
-            tools:layout_editor_absoluteX="1dp" />
+            app:layout_constraintVertical_bias="0.0" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
