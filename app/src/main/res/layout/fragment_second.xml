@@ -5,7 +5,7 @@
     android:id="@+id/vis"
     android:layout_width="match_parent"
     android:layout_height="730dp"
-    android:background="#88B2261E"
+    android:background="#CC1638"
     tools:context=".SecondFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
